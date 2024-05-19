@@ -9,7 +9,7 @@ def create_app() -> FastAPI:
     
     @app.get("/test")
     def test():
-        return {"result": "oauthquake"}
+        return {"result": "oauthquake-v2"}
 
     return app
     
